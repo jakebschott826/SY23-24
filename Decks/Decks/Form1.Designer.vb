@@ -49,9 +49,9 @@ Partial Class Form1
         'PictureBox1
         '
         Me.PictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.PictureBox1.Location = New System.Drawing.Point(224, 70)
+        Me.PictureBox1.Location = New System.Drawing.Point(396, 145)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(125, 62)
+        Me.PictureBox1.Size = New System.Drawing.Size(337, 187)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
@@ -59,81 +59,81 @@ Partial Class Form1
         'modellabel
         '
         Me.modellabel.AutoSize = True
-        Me.modellabel.Location = New System.Drawing.Point(121, 158)
+        Me.modellabel.Location = New System.Drawing.Point(92, 152)
         Me.modellabel.Name = "modellabel"
-        Me.modellabel.Size = New System.Drawing.Size(52, 20)
+        Me.modellabel.Size = New System.Drawing.Size(94, 20)
         Me.modellabel.TabIndex = 1
-        Me.modellabel.Text = "model"
+        Me.modellabel.Text = "Make/Model"
         '
         'accelerationlabel
         '
         Me.accelerationlabel.AutoSize = True
-        Me.accelerationlabel.Location = New System.Drawing.Point(121, 205)
+        Me.accelerationlabel.Location = New System.Drawing.Point(22, 192)
         Me.accelerationlabel.Name = "accelerationlabel"
-        Me.accelerationlabel.Size = New System.Drawing.Size(90, 20)
+        Me.accelerationlabel.Size = New System.Drawing.Size(164, 20)
         Me.accelerationlabel.TabIndex = 2
-        Me.accelerationlabel.Text = "acceleration"
+        Me.accelerationlabel.Text = "Acceleration(0-60MPH)"
         '
         'topsepeedlabel
         '
         Me.topsepeedlabel.AutoSize = True
-        Me.topsepeedlabel.Location = New System.Drawing.Point(121, 244)
+        Me.topsepeedlabel.Location = New System.Drawing.Point(64, 232)
         Me.topsepeedlabel.Name = "topsepeedlabel"
-        Me.topsepeedlabel.Size = New System.Drawing.Size(76, 20)
+        Me.topsepeedlabel.Size = New System.Drawing.Size(122, 20)
         Me.topsepeedlabel.TabIndex = 3
-        Me.topsepeedlabel.Text = "top speed"
+        Me.topsepeedlabel.Text = "Top Speed(MPH)"
         '
         'weightlabel
         '
         Me.weightlabel.AutoSize = True
-        Me.weightlabel.Location = New System.Drawing.Point(121, 280)
+        Me.weightlabel.Location = New System.Drawing.Point(96, 272)
         Me.weightlabel.Name = "weightlabel"
-        Me.weightlabel.Size = New System.Drawing.Size(54, 20)
+        Me.weightlabel.Size = New System.Drawing.Size(90, 20)
         Me.weightlabel.TabIndex = 4
-        Me.weightlabel.Text = "weight"
+        Me.weightlabel.Text = "Weight(LBS)"
         '
         'horsepowerlabel
         '
         Me.horsepowerlabel.AutoSize = True
-        Me.horsepowerlabel.Location = New System.Drawing.Point(121, 316)
+        Me.horsepowerlabel.Location = New System.Drawing.Point(96, 312)
         Me.horsepowerlabel.Name = "horsepowerlabel"
-        Me.horsepowerlabel.Size = New System.Drawing.Size(87, 20)
+        Me.horsepowerlabel.Size = New System.Drawing.Size(90, 20)
         Me.horsepowerlabel.TabIndex = 5
-        Me.horsepowerlabel.Text = "horsepower"
+        Me.horsepowerlabel.Text = "Horsepower"
         '
         'field1
         '
-        Me.field1.Location = New System.Drawing.Point(224, 155)
+        Me.field1.Location = New System.Drawing.Point(192, 145)
         Me.field1.Name = "field1"
-        Me.field1.Size = New System.Drawing.Size(125, 27)
+        Me.field1.Size = New System.Drawing.Size(198, 27)
         Me.field1.TabIndex = 6
         '
         'field2
         '
-        Me.field2.Location = New System.Drawing.Point(224, 198)
+        Me.field2.Location = New System.Drawing.Point(192, 185)
         Me.field2.Name = "field2"
-        Me.field2.Size = New System.Drawing.Size(125, 27)
+        Me.field2.Size = New System.Drawing.Size(198, 27)
         Me.field2.TabIndex = 7
         '
         'field3
         '
-        Me.field3.Location = New System.Drawing.Point(224, 237)
+        Me.field3.Location = New System.Drawing.Point(192, 225)
         Me.field3.Name = "field3"
-        Me.field3.Size = New System.Drawing.Size(125, 27)
+        Me.field3.Size = New System.Drawing.Size(198, 27)
         Me.field3.TabIndex = 8
         '
         'field4
         '
-        Me.field4.Location = New System.Drawing.Point(224, 273)
+        Me.field4.Location = New System.Drawing.Point(192, 265)
         Me.field4.Name = "field4"
-        Me.field4.Size = New System.Drawing.Size(125, 27)
+        Me.field4.Size = New System.Drawing.Size(198, 27)
         Me.field4.TabIndex = 9
         '
         'field5
         '
-        Me.field5.Location = New System.Drawing.Point(224, 309)
+        Me.field5.Location = New System.Drawing.Point(192, 305)
         Me.field5.Name = "field5"
-        Me.field5.Size = New System.Drawing.Size(125, 27)
+        Me.field5.Size = New System.Drawing.Size(198, 27)
         Me.field5.TabIndex = 10
         '
         'MenuStrip1
@@ -156,13 +156,13 @@ Partial Class Form1
         'NewToolStripMenuItem
         '
         Me.NewToolStripMenuItem.Name = "NewToolStripMenuItem"
-        Me.NewToolStripMenuItem.Size = New System.Drawing.Size(121, 26)
+        Me.NewToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
         Me.NewToolStripMenuItem.Text = "new"
         '
         'SaveToolStripMenuItem
         '
         Me.SaveToolStripMenuItem.Name = "SaveToolStripMenuItem"
-        Me.SaveToolStripMenuItem.Size = New System.Drawing.Size(121, 26)
+        Me.SaveToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
         Me.SaveToolStripMenuItem.Text = "save"
         '
         'OpenFileDialog1
