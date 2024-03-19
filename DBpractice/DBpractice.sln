@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DBpractice", "DBpractice\DBpractice.vbproj", "{AF0796CE-A01C-4CEF-8903-C8379DD4AD24}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF0796CE-A01C-4CEF-8903-C8379DD4AD24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF0796CE-A01C-4CEF-8903-C8379DD4AD24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF0796CE-A01C-4CEF-8903-C8379DD4AD24}.Debug|x86.ActiveCfg = Debug|x86
+		{AF0796CE-A01C-4CEF-8903-C8379DD4AD24}.Debug|x86.Build.0 = Debug|x86
+		{AF0796CE-A01C-4CEF-8903-C8379DD4AD24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF0796CE-A01C-4CEF-8903-C8379DD4AD24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF0796CE-A01C-4CEF-8903-C8379DD4AD24}.Release|x86.ActiveCfg = Release|x86
+		{AF0796CE-A01C-4CEF-8903-C8379DD4AD24}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3D1300B9-7A20-4A9A-BDB4-7B3C2EC87F1E}
+	EndGlobalSection
+EndGlobal
